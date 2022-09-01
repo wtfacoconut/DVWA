@@ -3264,7 +3264,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3278,7 +3278,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3306,7 +3306,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request : return->events['?']->value)"
+                "text" : "example.php:69 - run(this-&gt;request : return-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3320,7 +3320,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - each(0 : return)"
+                "text" : "   Monitor.php:236 - each(0 : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3334,7 +3334,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - Assignment to $value"
+                "text" : "   Monitor.php:236 - Assignment to $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3348,7 +3348,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:237 - _iterate(1 : this->report->events['?']->value)"
+                "text" : "   Monitor.php:237 - _iterate(1 : this-&gt;report-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3362,7 +3362,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:264 - init^(1 : this->value)"
+                "text" : "      Monitor.php:264 - init^(1 : this-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3376,7 +3376,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event.php:121 - Assignment to $this->value"
+                "text" : "         Event.php:121 - Assignment to $this-&gt;value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3390,7 +3390,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:262 - addevent(0 : this->events['?'])"
+                "text" : "      Monitor.php:262 - addevent(0 : this-&gt;events['?'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3404,7 +3404,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Report.php:119 - Assignment to $this->events['?']"
+                "text" : "         Report.php:119 - Assignment to $this-&gt;events['?']"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3418,7 +3418,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - getreport(this->report : return)"
+                "text" : "   Monitor.php:241 - getreport(this-&gt;report : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3432,7 +3432,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:670 - Return $this->report"
+                "text" : "      Monitor.php:670 - Return $this-&gt;report"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -3446,7 +3446,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - Return"
+                "text" : "   Monitor.php:241 - Return"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5374,7 +5374,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5388,7 +5388,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5416,7 +5416,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request : return->events['?']->value)"
+                "text" : "example.php:69 - run(this-&gt;request : return-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5430,7 +5430,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - each(0 : return)"
+                "text" : "   Monitor.php:236 - each(0 : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5444,7 +5444,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - Assignment to $value"
+                "text" : "   Monitor.php:236 - Assignment to $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5458,7 +5458,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:237 - _iterate(1 : this->report->events['?']->value)"
+                "text" : "   Monitor.php:237 - _iterate(1 : this-&gt;report-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5472,7 +5472,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:264 - init^(1 : this->value)"
+                "text" : "      Monitor.php:264 - init^(1 : this-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5486,7 +5486,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event.php:121 - Assignment to $this->value"
+                "text" : "         Event.php:121 - Assignment to $this-&gt;value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5500,7 +5500,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:262 - addevent(0 : this->events['?'])"
+                "text" : "      Monitor.php:262 - addevent(0 : this-&gt;events['?'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5514,7 +5514,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Report.php:119 - Assignment to $this->events['?']"
+                "text" : "         Report.php:119 - Assignment to $this-&gt;events['?']"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5528,7 +5528,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - getreport(this->report : return)"
+                "text" : "   Monitor.php:241 - getreport(this-&gt;report : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5542,7 +5542,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:670 - Return $this->report"
+                "text" : "      Monitor.php:670 - Return $this-&gt;report"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -5556,7 +5556,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - Return"
+                "text" : "   Monitor.php:241 - Return"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13703,7 +13703,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13717,7 +13717,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13745,7 +13745,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request : return->events['?']->value)"
+                "text" : "example.php:69 - run(this-&gt;request : return-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13759,7 +13759,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - each(0 : return)"
+                "text" : "   Monitor.php:236 - each(0 : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13773,7 +13773,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - Assignment to $value"
+                "text" : "   Monitor.php:236 - Assignment to $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13787,7 +13787,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:237 - _iterate(1 : this->report->events['?']->value)"
+                "text" : "   Monitor.php:237 - _iterate(1 : this-&gt;report-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13801,7 +13801,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:264 - init^(1 : this->value)"
+                "text" : "      Monitor.php:264 - init^(1 : this-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13815,7 +13815,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event.php:121 - Assignment to $this->value"
+                "text" : "         Event.php:121 - Assignment to $this-&gt;value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13829,7 +13829,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:262 - addevent(0 : this->events['?'])"
+                "text" : "      Monitor.php:262 - addevent(0 : this-&gt;events['?'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13843,7 +13843,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Report.php:119 - Assignment to $this->events['?']"
+                "text" : "         Report.php:119 - Assignment to $this-&gt;events['?']"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13857,7 +13857,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - getreport(this->report : return)"
+                "text" : "   Monitor.php:241 - getreport(this-&gt;report : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13871,7 +13871,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:670 - Return $this->report"
+                "text" : "      Monitor.php:670 - Return $this-&gt;report"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -13885,7 +13885,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - Return"
+                "text" : "   Monitor.php:241 - Return"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17404,7 +17404,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17418,7 +17418,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17446,7 +17446,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request : return->events['?']->value)"
+                "text" : "example.php:69 - run(this-&gt;request : return-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17460,7 +17460,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - each(0 : return)"
+                "text" : "   Monitor.php:236 - each(0 : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17474,7 +17474,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:236 - Assignment to $value"
+                "text" : "   Monitor.php:236 - Assignment to $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17488,7 +17488,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:237 - _iterate(1 : this->report->events['?']->value)"
+                "text" : "   Monitor.php:237 - _iterate(1 : this-&gt;report-&gt;events['?']-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17502,7 +17502,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:264 - init^(1 : this->value)"
+                "text" : "      Monitor.php:264 - init^(1 : this-&gt;value)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17516,7 +17516,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Event.php:121 - Assignment to $this->value"
+                "text" : "         Event.php:121 - Assignment to $this-&gt;value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17530,7 +17530,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:262 - addevent(0 : this->events['?'])"
+                "text" : "      Monitor.php:262 - addevent(0 : this-&gt;events['?'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17544,7 +17544,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Report.php:119 - Assignment to $this->events['?']"
+                "text" : "         Report.php:119 - Assignment to $this-&gt;events['?']"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17558,7 +17558,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - getreport(this->report : return)"
+                "text" : "   Monitor.php:241 - getreport(this-&gt;report : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17572,7 +17572,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Monitor.php:670 - Return $this->report"
+                "text" : "      Monitor.php:670 - Return $this-&gt;report"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -17586,7 +17586,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:241 - Return"
+                "text" : "   Monitor.php:241 - Return"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20119,7 +20119,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "ids.php:125 - init^(1->config['Caching']['caching'])"
+                "text" : "ids.php:125 - init^(1-&gt;config['Caching']['caching'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20133,7 +20133,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Monitor.php:189 - init^(0->config['Caching']['caching'])"
+                "text" : "Monitor.php:189 - init^(0-&gt;config['Caching']['caching'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20147,7 +20147,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Storage.php:106 - factory(0->config['Caching']['caching'])"
+                "text" : "Storage.php:106 - factory(0-&gt;config['Caching']['caching'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20522,7 +20522,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "ids.php:125 - init^(1->config['General']['HTML_Purifier_Path'] : this->pathToHTMLPurifier)"
+                "text" : "ids.php:125 - init^(1-&gt;config['General']['HTML_Purifier_Path'] : this-&gt;pathToHTMLPurifier)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20536,7 +20536,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:206 - Assignment to $this->pathToHTMLPurifier"
+                "text" : "   Monitor.php:206 - Assignment to $this-&gt;pathToHTMLPurifier"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20564,7 +20564,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "ids.php:126 - run(this->pathToHTMLPurifier)"
+                "text" : "ids.php:126 - run(this-&gt;pathToHTMLPurifier)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20578,7 +20578,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Monitor.php:237 - _iterate(this->pathToHTMLPurifier)"
+                "text" : "Monitor.php:237 - _iterate(this-&gt;pathToHTMLPurifier)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20592,7 +20592,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Monitor.php:259 - _detect(this->pathToHTMLPurifier)"
+                "text" : "Monitor.php:259 - _detect(this-&gt;pathToHTMLPurifier)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20606,7 +20606,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Monitor.php:308 - _purifyvalues(this->pathToHTMLPurifier)"
+                "text" : "Monitor.php:308 - _purifyvalues(this-&gt;pathToHTMLPurifier)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20938,7 +20938,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20952,7 +20952,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -20980,7 +20980,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21133,7 +21133,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21147,7 +21147,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21175,7 +21175,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21328,7 +21328,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21342,7 +21342,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21370,7 +21370,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21523,7 +21523,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21537,7 +21537,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21565,7 +21565,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21718,7 +21718,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21732,7 +21732,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21760,7 +21760,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21968,7 +21968,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -21982,7 +21982,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22010,7 +22010,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22163,7 +22163,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22177,7 +22177,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22205,7 +22205,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22358,7 +22358,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22372,7 +22372,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22400,7 +22400,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22553,7 +22553,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22567,7 +22567,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22595,7 +22595,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22679,7 +22679,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22790,7 +22790,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22804,7 +22804,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22832,7 +22832,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -22916,7 +22916,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23027,7 +23027,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23041,7 +23041,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23069,7 +23069,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23153,7 +23153,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23264,7 +23264,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23278,7 +23278,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23306,7 +23306,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23390,7 +23390,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23501,7 +23501,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23515,7 +23515,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23543,7 +23543,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23627,7 +23627,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23738,7 +23738,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23752,7 +23752,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23780,7 +23780,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23864,7 +23864,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23975,7 +23975,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this->request)"
+                "text" : "dvwaPhpIds.inc.php:75 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -23989,7 +23989,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24017,7 +24017,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "dvwaPhpIds.inc.php:76 - run(this->request)"
+                "text" : "dvwaPhpIds.inc.php:76 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24101,7 +24101,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24212,7 +24212,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:68 - init^(0 : this->request)"
+                "text" : "example.php:68 - init^(0 : this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24226,7 +24226,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Monitor.php:190 - Assignment to $this->request"
+                "text" : "   Monitor.php:190 - Assignment to $this-&gt;request"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24254,7 +24254,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "example.php:69 - run(this->request)"
+                "text" : "example.php:69 - run(this-&gt;request)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24338,7 +24338,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Converter.php:75 - Return $value"
+                "text" : "   Converter.php:75 - Return $value"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24863,7 +24863,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "ids.php:125 - init^(1->config['General']['filter_path'])"
+                "text" : "ids.php:125 - init^(1-&gt;config['General']['filter_path'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24877,7 +24877,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Monitor.php:189 - init^(0->config['General']['filter_path'])"
+                "text" : "Monitor.php:189 - init^(0-&gt;config['General']['filter_path'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24891,7 +24891,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Storage.php:100 - Assignment to $this->source"
+                "text" : "Storage.php:100 - Assignment to $this-&gt;source"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24905,7 +24905,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Storage.php:114 - getfilterfromjson(this->source)"
+                "text" : "Storage.php:114 - getfilterfromjson(this-&gt;source)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24949,7 +24949,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "ids.php:125 - init^(1->config['General']['base_path'])"
+                "text" : "ids.php:125 - init^(1-&gt;config['General']['base_path'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24963,7 +24963,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Monitor.php:189 - init^(0->config['General']['base_path'])"
+                "text" : "Monitor.php:189 - init^(0-&gt;config['General']['base_path'])"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24977,7 +24977,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Storage.php:100 - getbasepath(this->config['General']['base_path'] : return)"
+                "text" : "Storage.php:100 - getbasepath(this-&gt;config['General']['base_path'] : return)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -24991,7 +24991,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "&nbsp;&nbsp;&nbsp;Init.php:163 - Return"
+                "text" : "   Init.php:163 - Return"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -25005,7 +25005,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Storage.php:100 - Assignment to $this->source"
+                "text" : "Storage.php:100 - Assignment to $this-&gt;source"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
@@ -25019,7 +25019,7 @@
           }, {
             "location" : {
               "message" : {
-                "text" : "Storage.php:114 - getfilterfromjson(this->source)"
+                "text" : "Storage.php:114 - getfilterfromjson(this-&gt;source)"
               },
               "physicalLocation" : {
                 "artifactLocation" : {
